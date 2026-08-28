@@ -28,6 +28,21 @@ Fully offline, customizable, and optimized for artists who want to focus on draw
 ) | ![Review](images/review.png) |
 
 
+## ⚡ Quick Start (Windows Standalone EXE)
+
+**No Python installation required!**
+* Double-click **`GestureApp.exe`** (or **`起動する.bat`**) to launch immediately.
+* Everything is self-contained in a single executable.
+
+### 🛠 Building from Source (Optional)
+If you want to build the EXE yourself:
+1. Double-click `build.bat`
+2. Or run via terminal:
+   ```bash
+   pip install PyQt6 pyinstaller Pillow
+   pyinstaller --noconfirm --onefile --windowed --name "GestureApp" --icon "icon.ico" --add-data "icon.png;." gesture_app.py
+   ```
+
 ## 🚀 How to Use
 
 ### 1. Setup
@@ -83,6 +98,21 @@ Windows/Mac/Linuxで動作し、完全にオフラインで動作します。
 
 
 
+
+## ⚡ 簡単起動（Windows EXE版・インストール不要）
+
+**Pythonやライブラリのインストールは不要です！**
+* **`GestureApp.exe`**（または **`起動する.bat`**）をダブルクリックするだけで、すぐにアプリが起動します。
+* 必要なファイルが1つのEXEにまとめられているため、誰でも簡単に利用可能です。
+
+### 🛠 ソースコードからのEXE作成手順（開発者向け）
+自身でEXEファイルを再ビルドしたい場合は、以下のいずれかで作成できます：
+1. **`build.bat`** をダブルクリックして実行
+2. またはコマンドラインで以下を実行：
+   ```bash
+   pip install PyQt6 pyinstaller Pillow
+   pyinstaller --noconfirm --onefile --windowed --name "GestureApp" --icon "icon.ico" --add-data "icon.png;." gesture_app.py
+   ```
 
 ## 🚀 使い方 (Usage)
 
